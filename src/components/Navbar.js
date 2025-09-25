@@ -12,7 +12,7 @@ export default function Navbar(){
         <a href="#form-daftar">Daftar</a>
         <a href="#contact">Kontak</a>
       </nav>
-      <button className="btn" onClick={()=>document.getElementById('form-daftar')?.scrollIntoView({behavior:'smooth'})}>Daftar</button>
+      <button className="btn" onClick={()=>document.getElementById('form-daftar')?.scrollIntoView({behavior:'smooth'})}>Register</button>
     </header>
   )
 }
