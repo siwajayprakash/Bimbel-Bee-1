@@ -5,8 +5,6 @@ import About from './pages/About';
 import Programs from './pages/Programs';
 import Contact from './pages/Contact';
 
-export default function App() {
-  return (
     <div style={{ background: '#f0fbfd', minHeight: '100vh' }}>
       <div className="container">
         <Navbar />
