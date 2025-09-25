@@ -10,7 +10,7 @@ export default function Navbar(){
         <a href="#program">Program</a>
         <a href="#about">About</a>
         <a href="#form-daftar">Register</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#contact">Contact</a>
       </nav>
       <button className="btn" onClick={()=>document.getElementById('form-daftar')?.scrollIntoView({behavior:'smooth'})}>Register</button>
     </header>
