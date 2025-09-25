@@ -8,9 +8,9 @@ export default function Navbar(){
       </div>
       <nav className="nav-links" aria-label="Main Navigation">
         <a href="#program">Program</a>
-        <a href="#about">Tentang</a>
-        <a href="#form-daftar">Daftar</a>
-        <a href="#contact">Kontak</a>
+        <a href="#about">About</a>
+        <a href="#form-daftar">Register</a>
+        <a href="#contact">Contact Us</a>
       </nav>
       <button className="btn" onClick={()=>document.getElementById('form-daftar')?.scrollIntoView({behavior:'smooth'})}>Register</button>
     </header>
