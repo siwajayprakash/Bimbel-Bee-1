@@ -17,7 +17,7 @@ export default function App() {
             alt="Bimbel Bee Logo"
             style={{ height: 80, marginTop: 20 }}
           />
-          <h1>Selamat Datang di Bimbel Bee</h1>
+          <h1>Selamat Datang di Bimbel</h1>
 
           {/* Halaman lain */}
           <Home />
